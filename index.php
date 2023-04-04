@@ -42,16 +42,18 @@
 
     <main class="portada_main">
       <div class="flex column margin_mobile_16">
-        <section class="mobile flex column text_align_center">
-          <p class="vanguardia_m">
-            Vanguardia
-            <span class="letra_pequeña"><br />en servicios</span> graficos
-          </p>
-          <div class="division"></div>
-          <p class="intro_book_alt_reg font_size_28">
-            Empresa especializada en servicio de diseño e impresión a la
-            vanguardia, con solucioness
-          </p>
+        <section class="flex column text_align_center">
+          <div class="mobile">
+            <p class="vanguardia_m ">
+              Vanguardia
+              <span class="letra_pequeña"><br />en servicios</span> graficos
+            </p>
+            <div class="division"></div>
+            <p class="intro_book_alt_reg font_size_28">
+              Empresa especializada en servicio de diseño e impresión a la
+              vanguardia, con solucioness
+            </p>
+          </div>
         </section>
         <section class="text_align_center center_text_box">
           <p class="intro_book_reg font_size_36">
