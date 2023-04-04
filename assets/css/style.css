@@ -3,13 +3,9 @@
     font-size: 24px;
 }
 
-
-
-
 a {
     text-decoration: none;
 }
-
 
 section {
     color: #908f8c;
@@ -51,10 +47,6 @@ section {
     justify-content: space-evenly;
 }
 
-.flex_start_cross {
-    align-items: start;
-}
-
 .flex_center {
     justify-content: center;
     align-items: center;
@@ -64,13 +56,6 @@ section {
     width: 50%;
 }
 
-.img_item {
-    height: 300px;
-}
-
-.subtitle {
-    width: 540px;
-}
 
 .column {
     flex-direction: column;
@@ -92,11 +77,18 @@ section {
     flex-grow: 1;
 }
 
+.img_item {
+    height: 300px;
+}
+
+.subtitle {
+    width: 540px;
+}
+
 .header {
     color: #fff;
     background: linear-gradient(#d3132a, 90%, #d83448);
     height: 150px;
-    color: #ffffff;
 }
 
 .nav {
@@ -210,10 +202,6 @@ section {
     width: 500px;
 }
 
-.center {
-    padding: 32px;
-}
-
 .width_30 {
     max-width: 30%;
     min-width: 330px;
@@ -260,7 +248,6 @@ section {
     width: 200px;
     height: 300px;
 }
-
 
 .vanguardia {
     margin: 0px;
@@ -550,7 +537,6 @@ section {
         margin: auto;
     }
 
-
     .font_size_100,
     .font_size_76,
     .font_size_56,
@@ -588,7 +574,6 @@ section {
         background-color: #908f8c;
     }
 
-
     .machine_list {
         width: min-content;
         margin-left: 150%;
@@ -619,12 +604,10 @@ section {
     }
 
     .margin_left_16 {
-
         margin-left: 10px;
     }
 
     .margin_left_100 {
-
         margin-left: 100px;
     }
 
@@ -662,8 +645,7 @@ section {
     }
 
     .mapa {
-        width:
-            100%;
+        width: 100%;
         height: 360px;
     }
 }
