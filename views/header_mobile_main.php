@@ -16,7 +16,7 @@
       </li>
     </ul>
   </nav>
-  <div class="flex row center">
-    <img id="logo" src="assets/img/logo.png" alt="" />
+  <div class="width_100">
+    <a href="index.php"><img class="logo_mobile" src="assets/img/logo.png" alt="" /></a>
   </div>
 </div>

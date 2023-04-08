@@ -4,25 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
+    <link rel="stylesheet" href="assets\css\normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- owl carousel -->
     <link
       rel="stylesheet"
-      href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+      href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
     />
     <link
       rel="stylesheet"
-      href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
+      href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
     />
     <!-- Drawe -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="node_modules\jquery-drawer\dist\css\drawer.min.css"
     />
+
     <title>index</title>
   </head>
   <body class="drawer drawer--left body_background">
@@ -34,33 +36,36 @@
         <span class="letra_pequeña intro_book_alt_reg">en servicios</span
         >Graficos
       </p>
-      <p class="descripvan intro_light_reg font_size_36">
+      <p class="descripvan intro_thin_reg font_size_36">
         Empresa especializada en servicio de diseño e impresión a la vanguardia,
         con soluciones
       </p>
     </header>
 
     <main class="portada_main">
-      <div class="flex column margin_mobile_16">
-        <section class="flex column text_align_center">
+      <div class="flex column">
+        <section class="flex column text_align_center margin_mobile_16">
           <div class="mobile">
-            <p class="vanguardia_m ">
+            <p class="vanguardia_m">
               Vanguardia
               <span class="letra_pequeña"><br />en servicios</span> graficos
             </p>
             <div class="division"></div>
-            <p class="intro_book_alt_reg font_size_28">
+            <p class="intro_thin_reg font_size_28">
               Empresa especializada en servicio de diseño e impresión a la
               vanguardia, con solucioness
             </p>
           </div>
         </section>
-        <section class="text_align_center center_text_box">
-          <p class="intro_book_reg font_size_36">
+        <section class="">
+          <p
+            class="intro_book_reg font_size_36 text_align_center center_text_box"
+          >
             Empresa Tlaxcalteca comprometida con nuestros clientes.
           </p>
+          <div class="division"></div>
         </section>
-        <div class="division"></div>
+
         <section class="flex column flex_center">
           <iframe
             class="video"
@@ -71,71 +76,96 @@
             allowfullscreen
           ></iframe>
           <div class="division_section"></div>
-          <div class="">
-            <p class="text_align_right">
+          <div class="flex row flex_end flex_center">
+            <p class="text_align_right margin_32">
               Años de experiencia respaldan los servicios que brindamos. A lo
               largo de este tiempo, hemos desarrollado un servicio de éxito para
               nuestros clientes.
             </p>
+            <div>
+              <img class="desk" src="assets/img/red_points.png" alt="" />
+            </div>
+          </div>
+          <div class="division_section"></div>
+        </section>
+        <section class="back_white">
+          <div class="flex row rwrap flex_center">
+            <div class="width_100">
+              <img class="width_100" src="assets/img/foto planta.png" alt="" />
+            </div>
+            <div
+              class="text_align_center flex column flex_space_around width_100 margin_32"
+            >
+              <p class="font_size_56 intro_black_italic_italic">
+                ¿Quienes Somos?
+              </p>
+
+              <p>
+                Somos una empresa dedicada a las artes gráficas especializada en
+                servicios de impresión y empaque, con experiencia de más de 15
+                años en la industria.
+              </p>
+
+              <p>
+                Comprometidos con la satisfacción del cliente, garantizando en
+                todo momento atención personalizada con un trato profesional y
+                humano, atentos a cumplir las expectativas de quienes depositan
+                en nosotros su confianza.
+              </p>
+              <div class="division"></div>
+              <button class="red_button">LEER MÁS</button>
+            </div>
+          </div>
+          <div class="division_section">
+            <img
+              class="left_gray_points desk"
+              src="assets/img/gray_points.png"
+              alt=""
+            />
           </div>
         </section>
-        <div class="division_section"></div>
-        <section class="flex row wrap">
-          <div class="width_100">
-            <img class="width_100" src="assets/img/foto planta.png" alt="" />
-          </div>
+
+        <section class="back_white">
           <div
-            class="text_align_center flex column flex_space_around width_100 margin_32"
+            class="background_red flex row wrap wrap_desk flex_center padding_top_16"
           >
-            <p class="font_size_56 intro_black_italic_italic">
-              ¿Quienes Somos?
-            </p>
+            <div class="division_section"></div>
+            <div class="flex column flex_center text_align_center width_30">
+              <img class="round_img" src="assets/img/magnifier.jpg" alt="" />
+              <p class="font_size_40">Servicios</p>
+              <p class="intro_light_reg width_30">
+                Impresión offset hasta 6 colores en linea más barniz
+              </p>
+            </div>
 
-            <p>
-              Somos una empresa dedicada a las artes gráficas especializada en
-              servicios de impresión y empaque, con experiencia de más de 15
-              años en la industria.
-            </p>
+            <div class="flex column flex_center text_align_center width_30">
+              <img class="round_img" src="assets/img/speedmaster.jpg" alt="" />
+              <p class="font_size_40">Servicios</p>
+              <p class="intro_light_reg width_30">
+                Equipo de vanguardia y técnologia de punta.
+              </p>
+            </div>
 
-            <p>
-              Comprometidos con la satisfacción del cliente, garantizando en
-              todo momento atención personalizada con un trato profesional y
-              humano, atentos a cumplir las expectativas de quienes depositan en
-              nosotros su confianza.
-            </p>
-            <div class="division"></div>
-            <span class="red_button">LEER MÁS</span>
+            <div class="flex column flex_center text_align_center width_30">
+              <img class="round_img" src="assets/img/group.jpeg" alt="" />
+              <p class="font_size_40">Responsabilidad social</p>
+              <p class="intro_light_reg width_30">
+                Valor humano, trato personal e integridad.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex_space_between">
+            <div>&nbsp</div>
+            <div>
+              <img
+                class="right_gray_points desk"
+                src="assets/img/gray_points.png"
+                alt=""
+              />
+            </div>
           </div>
         </section>
-        <div class="division_section"></div>
-        <section
-          class="background_red flex row wrap wrap_desk flex_center width_100 padding_top_16"
-        >
-          <div class="flex column flex_center text_align_center width_30">
-            <img class="round_img" src="assets/img/magnifier.jpg" alt="" />
-            <p class="font_size_40">Servicios</p>
-            <p class="intro_light_reg">
-              Impresión offset hasta 6 colores en linea más barniz
-            </p>
-          </div>
 
-          <div class="flex column flex_center text_align_center width_30">
-            <img class="round_img" src="assets/img/speedmaster.jpg" alt="" />
-            <p class="font_size_40">Servicios</p>
-            <p class="intro_light_reg">
-              Equipo de vanguardia y técnologia de punta.
-            </p>
-          </div>
-
-          <div class="flex column flex_center text_align_center width_30">
-            <img class="round_img" src="assets/img/group.jpeg" alt="" />
-            <p class="font_size_40">Responsabilidad social</p>
-            <p class="intro_light_reg">
-              Valor humano, trato personal e integridad.
-            </p>
-          </div>
-        </section>
-        <div class="division_section"></div>
         <section class="flex column wrap text_align_center back_grad_gry">
           <div class="division"></div>
           <p class="intro font_size_76 margin_0">Articulos</p>
@@ -194,7 +224,13 @@
             /></a>
           </div>
         </section>
-        <div class="division"></div>
+        <div class="division_section">
+          <img
+            class="right_gray_points_down desk"
+            src="assets/img/gray_points.png"
+            alt=""
+          />
+        </div>
         <section>
           <div class="flex flex_center">
             <iframe
@@ -211,16 +247,15 @@
       </div>
     </main>
     <a name="footer"></a>
-    <footer>
+    <footer class="footer_container">
       <?php include('views/footer.php') ?>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="node_modules\jquery\dist\jquery.min.js"></script>
+    <script src="node_modules\iscroll\build\iscroll.js"></script>
     <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="../../"></script>
     <!-- drawer.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="node_modules\jquery-drawer\dist\js\drawer.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".drawer").drawer();

@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer2">
   <div class="flex flex_space_around wrap wrap_desk">
     <div class="">
       <p class="intro">CONTACTO</p>
