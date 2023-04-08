@@ -32,7 +32,7 @@
       <div class="mobile"><?php include('views/header_mobile_main.php') ?></div>
       <div class="desk"><?php include('views/header_desk_main.php') ?></div>
       <p class="vanguardia intro_book_alt_reg font_size_100">
-        Vanguardia
+        Vanguardia &nbsp
         <span class="letra_pequeña intro_book_alt_reg">en servicios</span
         >Graficos
       </p>
@@ -44,7 +44,7 @@
 
     <main class="portada_main">
       <div class="flex column">
-        <section class="flex column text_align_center margin_mobile_16">
+        <section id="version_mobile" class="flex column text_align_center margin_mobile_16">
           <div class="mobile">
             <p class="vanguardia_m">
               Vanguardia
@@ -77,7 +77,7 @@
           ></iframe>
           <div class="division_section"></div>
           <div class="flex row flex_end flex_center">
-            <p class="text_align_right margin_32">
+            <p class="text_align_right margin_32 intro_light_reg">
               Años de experiencia respaldan los servicios que brindamos. A lo
               largo de este tiempo, hemos desarrollado un servicio de éxito para
               nuestros clientes.
@@ -205,6 +205,7 @@
         <div class="division"></div>
         <section class="flex column text_align_center flex_center">
           <img class="quote" src="assets/img/Quote.png" alt="" />
+          <div class="division"></div>
           <p class="font_size_36 margin_0">
             Las mejores ideas comienzan en papel
           </p>
