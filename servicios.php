@@ -58,7 +58,6 @@
               <li>Tamaño máximo de impresión 72 x 102 cm</li>
             </div>
           </div>
-
         </section>
         <div>
           <img
@@ -67,7 +66,7 @@
             alt=""
           />
         </div>
-        <div class="division"></div>
+        <div class="division_section"></div>
         <section id="barniz" class="flex row rwrap flex_center">
           <div class="flex_item_50">
             <img class="width_100" src="assets/img/barniz.png" alt="" />
@@ -79,6 +78,7 @@
               barnices de marca, excelente brillo, secado rápido, buena
               fricción, y gran calidad de adehencia.
             </p>
+            <div class="division_section"></div>
             <div class="flex row flex_end">
               <p class="text_align_end">
                 <span class="font_size_28">barniz a registro & barniz uv</span>
@@ -95,6 +95,7 @@
             </div>
           </div>
         </section>
+        <div class="division_section"></div>
         <div class="division_section"></div>
         <section id="corte_suaje/diseño" class="flex column wrap wrap_desk">
           <div class="flex row rwrap">
@@ -191,17 +192,23 @@
           </div>
         </section>
         <div class="division"></div>
-        <section id="clientes flex row">
+        <section id="clientes">
+          <div class="flex row flex_end">
           <p
             class="intro_black_italic_italic font_size_48 text_align_end margin_32"
           >
             Principales Clientes
-            <img
-              class="right_gray_points_down desk"
+            
+          </p>
+          <div>
+          <img
+              class="right_gray_points desk"
               src="assets/img/gray_points.png"
               alt=""
             />
-          </p>
+          </div>
+          </div>
+          <div class="division_section"></div>
         </section>
       </div>
     </main>
