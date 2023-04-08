@@ -115,21 +115,38 @@
                   Valores
                 </p>
               </div>
-              <p>
-                <img class="" src="assets/img/checkbox.png" alt="" />
-              </p>
-              <p>
-                <img class="" src="assets/img/checkbox.png" alt="" />
-              </p>
-              <p>
-                <img class="" src="assets/img/checkbox.png" alt="" />
-              </p>
-              <p>
-                <img class="" src="assets/img/checkbox.png" alt="" />
-              </p>
-              <p>
-                <img class="" src="assets/img/checkbox.png" alt="" />
-              </p>
+              
+              <div class="flex row">
+                <div class="flex_item_50"></div>
+                <p class="flex_item_50">
+                  <img class="" src="assets/img/checkbox.png" alt="" />
+                </p>
+              </div>
+              <div class="flex row">
+                <div class="flex_item_50"></div>
+                <p class="flex_item_50">
+                  <img class="" src="assets/img/checkbox.png" alt="" />
+                </p>
+              </div>
+              <div class="flex row">
+                <div class="flex_item_50"></div>
+                <p class="flex_item_50">
+                  <img class="" src="assets/img/checkbox.png" alt="" />
+                </p>
+              </div>
+              <div class="flex row">
+                <div class="flex_item_50"></div>
+                <p class="flex_item_50">
+                  <img class="" src="assets/img/checkbox.png" alt="" />
+                </p>
+              </div>
+              <div class="flex row">
+                <div class="flex_item_50"></div>
+                <p class="flex_item_50">
+                  <img class="" src="assets/img/checkbox.png" alt="" />
+                </p>
+              </div>
+              
             </div>
             <div class="valores_list flex column flex_space_around">
               <p class="margin_16 desk">&nbsp</p>
@@ -138,15 +155,21 @@
               >
                 Valores
               </p>
-              <p class="padding_left_16 font_size_56 margin_0">Ética</p>
-              <p class="padding_left_16 font_size_56 margin_0">
+              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                Ética
+              </p>
+              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
                 Trabajo en equipo
               </p>
-              <p class="padding_left_16 font_size_56 margin_0">Honestidad</p>
-              <p class="padding_left_16 font_size_56 margin_0">
+              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                Honestidad
+              </p>
+              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
                 Responsabilidad social
               </p>
-              <p class="padding_left_16 font_size_56 margin_0">Empatia</p>
+              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                Empatia
+              </p>
             </div>
           </div>
         </section>
@@ -154,7 +177,11 @@
         <div class="division_section"></div>
 
         <div class="division_section">
-          <img class="desk left_gray_points" src="assets/img/gray_points.png" alt="" />
+          <img
+            class="desk left_gray_points"
+            src="assets/img/gray_points.png"
+            alt=""
+          />
         </div>
 
         <section class="flex row back_gray margin_mobile_16">
