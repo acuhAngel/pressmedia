@@ -9,11 +9,6 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- owl carousel -->
-    <link
-      rel="stylesheet"
-      href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
     <!-- Drawe -->
     <link
       rel="stylesheet"
@@ -198,7 +193,6 @@
             class="intro_black_italic_italic font_size_48 text_align_end margin_32"
           >
             Principales Clientes
-            
           </p>
           <div>
           <img
@@ -218,7 +212,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
-    <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <!-- drawer.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
     <script>

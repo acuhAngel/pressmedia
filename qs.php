@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets\css\normalize.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- owl carousel -->
     <link
@@ -12,13 +12,9 @@
       href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
     />
     <!-- Drawe -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
-    /> -->
     <link
       rel="stylesheet"
-      href="node_modules\jquery-drawer\dist\css\drawer.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
     />
     <title>QS</title>
   </head>
@@ -294,10 +290,10 @@
       <?php include('views/footer2.php') ?>
     </footer>
 
-    <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="node_modules\iscroll\build\iscroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <!-- drawer.js -->
-    <script src="node_modules\jquery-drawer\dist\js\drawer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".drawer").drawer();

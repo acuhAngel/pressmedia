@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets\css\normalize.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- owl carousel -->
     <link
@@ -16,14 +16,11 @@
       href="node_modules/owl.carousel/dist/assets/owl.theme.default.min.css"
     />
     <!-- Drawe -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
-    /> -->
     <link
       rel="stylesheet"
-      href="node_modules\jquery-drawer\dist\css\drawer.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
+    /> 
+
 
     <title>index</title>
   </head>
@@ -44,51 +41,53 @@
 
     <main class="portada_main">
       <div class="flex column">
-        <section id="version_mobile" class="flex column text_align_center margin_mobile_16">
-          <div class="mobile">
-            <p class="vanguardia_m">
-              Vanguardia
-              <span class="letra_pequeña"><br />en servicios</span> graficos
-            </p>
-            <div class="division"></div>
-            <p class="intro_thin_reg font_size_28">
-              Empresa especializada en servicio de diseño e impresión a la
-              vanguardia, con solucioness
-            </p>
+        <section id="version_mobile">
+          <div class="flex column text_align_center margin_mobile_16">
+            <div class="mobile">
+              <p class="vanguardia_m">
+                Vanguardia
+                <span class="letra_pequeña"><br />en servicios</span> graficos
+              </p>
+              <div class="division"></div>
+              <p class="intro_thin_reg font_size_28">
+                Empresa especializada en servicio de diseño e impresión a la
+                vanguardia, con solucioness
+              </p>
+            </div>
           </div>
         </section>
-        <section class="">
+        <section id="video">
           <p
             class="intro_book_reg font_size_36 text_align_center center_text_box"
           >
             Empresa Tlaxcalteca comprometida con nuestros clientes.
           </p>
           <div class="division"></div>
-        </section>
 
-        <section class="flex column flex_center">
-          <iframe
-            class="video"
-            src="https://www.youtube.com/embed/KFKMEiuCY6M"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-          <div class="division_section"></div>
-          <div class="flex row flex_end flex_center">
-            <p class="text_align_right margin_32 intro_light_reg">
-              Años de experiencia respaldan los servicios que brindamos. A lo
-              largo de este tiempo, hemos desarrollado un servicio de éxito para
-              nuestros clientes.
-            </p>
-            <div>
-              <img class="desk" src="assets/img/red_points.png" alt="" />
+          <div class="flex column flex_center">
+            <iframe
+              class="video"
+              src="https://www.youtube.com/embed/KFKMEiuCY6M"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="division_section"></div>
+            <div class="flex row flex_end flex_center">
+              <p class="text_align_right margin_32 intro_light_reg">
+                Años de experiencia respaldan los servicios que brindamos. A lo
+                largo de este tiempo, hemos desarrollado un servicio de éxito
+                para nuestros clientes.
+              </p>
+              <div>
+                <img class="desk" src="assets/img/red_points.png" alt="" />
+              </div>
             </div>
+            <div class="division_section"></div>
           </div>
-          <div class="division_section"></div>
         </section>
-        <section class="back_white">
+        <section id="quienes_somos" class="back_white">
           <div class="flex row rwrap flex_center">
             <div class="width_100">
               <img class="width_100" src="assets/img/foto planta.png" alt="" />
@@ -125,7 +124,7 @@
           </div>
         </section>
 
-        <section class="back_white">
+        <section id="images" class="back_white">
           <div
             class="background_red flex row wrap wrap_desk flex_center padding_top_16"
           >
@@ -166,14 +165,16 @@
           </div>
         </section>
 
-        <section class="flex column wrap text_align_center back_grad_gry">
-          <div class="division"></div>
-          <p class="intro font_size_76 margin_0">Articulos</p>
-          <div class="division"></div>
-          <p class="font_size_28">
-            Etiquetas, Empaques, Papeleria, Diseño editorial, Producción
-            Publicitaria.
-          </p>
+        <section>
+          <div class="flex column wrap text_align_center back_grad_gry">
+            <div class="division"></div>
+            <p class="intro font_size_76 margin_0">Articulos</p>
+            <div class="division"></div>
+            <p class="font_size_28">
+              Etiquetas, Empaques, Papeleria, Diseño editorial, Producción
+              Publicitaria.
+            </p>
+          </div>
         </section>
         <div class="division"></div>
         <section id="carrousel">
@@ -203,26 +204,30 @@
           </div>
         </section>
         <div class="division"></div>
-        <section class="flex column text_align_center flex_center">
-          <img class="quote" src="assets/img/Quote.png" alt="" />
-          <div class="division"></div>
-          <p class="font_size_36 margin_0">
-            Las mejores ideas comienzan en papel
-          </p>
-          <p class="font_weight_900 font_size_40 margin_0">Grupo Pressmedia</p>
+        <section id="redes">
+          <div class="flex column text_align_center flex_center">
+            <img class="quote" src="assets/img/Quote.png" alt="" />
+            <div class="division"></div>
+            <p class="font_size_36 margin_0">
+              Las mejores ideas comienzan en papel
+            </p>
+            <p class="font_weight_900 font_size_40 margin_0">
+              Grupo Pressmedia
+            </p>
 
-          <div class="">
-            <a
-              href="https://www.facebook.com/profile.php?id=100068734127295"
-              target="_blank"
-              ><img class="icon" src="assets/img/fb.png" alt=""
-            /></a>
-            <a href="#" target="_blank"
-              ><img class="icon" src="assets/img/twiter.png" alt=""
-            /></a>
-            <a href="#" target="_blank"
-              ><img class="icon" src="assets/img/insta.png" alt=""
-            /></a>
+            <div class="">
+              <a
+                href="https://www.facebook.com/profile.php?id=100068734127295"
+                target="_blank"
+                ><img class="icon" src="assets/img/fb.png" alt=""
+              /></a>
+              <a href="#" target="_blank"
+                ><img class="icon" src="assets/img/twiter.png" alt=""
+              /></a>
+              <a href="#" target="_blank"
+                ><img class="icon" src="assets/img/insta.png" alt=""
+              /></a>
+            </div>
           </div>
         </section>
         <div class="division_section">
@@ -232,7 +237,7 @@
             alt=""
           />
         </div>
-        <section>
+        <section id="mapa">
           <div class="flex flex_center">
             <iframe
               class="mapa"
@@ -252,11 +257,11 @@
       <?php include('views/footer.php') ?>
     </footer>
 
-    <script src="node_modules\jquery\dist\jquery.min.js"></script>
-    <script src="node_modules\iscroll\build\iscroll.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <!-- drawer.js -->
-    <script src="node_modules\jquery-drawer\dist\js\drawer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".drawer").drawer();
