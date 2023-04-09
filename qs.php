@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- owl carousel -->
-    <link
-      rel="stylesheet"
-      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
     <!-- Drawe -->
     <link
       rel="stylesheet"
