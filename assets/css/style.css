@@ -58,6 +58,10 @@ section {
     align-items: center;
 }
 
+.flex_cross_center {
+    align-items: center;
+}
+
 .flex_item_50 {
     width: 50%;
 }
@@ -93,7 +97,7 @@ section {
 .header {
     color: #fff;
     background: linear-gradient(#d3132a, 90%, #d83448);
-    height: 160px;
+    height: 210px;
 }
 
 .nav {
@@ -128,25 +132,24 @@ section {
 .footer {
     color: #fff;
     position: relative;
-    background-image: url(../img/footer.png);
-    background-color: #fff;
+    background-color: #b40d39;
     width: 100%;
     height: max-content;
-    padding-top: 380px;
+    padding-top: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: start;
 }
 
-.footer2 {
-    color: #fff;
-    position: relative;
-    background-image: url(../img/footer2.png);
-    width: 100%;
-    height: max-content;
-    padding-top: 200px;
+.footer_margin {
+    margin: 0 6px;
+
+}
+
+.main_footer_img {
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    margin-bottom: -6px;    
 }
 
 .icon {
@@ -182,16 +185,11 @@ section {
 }
 
 .gray_line {
-    margin-left: 20%;
-    max-width: 50px;
-    height: 600px;
-    background-color: #908f8c;
+    border-left: 100px solid #908f8c;
+    padding-left: 32px;
 }
 
-.machine_list {
-    margin-left: 200%;
-    width: 600px;
-}
+
 
 .gray_container {
     background-color: #908f8c;
@@ -296,6 +294,10 @@ section {
 .video {
     width: 90%;
     height: 720px;
+}
+
+.margin_left_32 {
+    margin-left: 32px
 }
 
 
@@ -412,6 +414,10 @@ section {
     margin-left: 90px;
 }
 
+.width_200px {
+    width: 200px; 
+}    
+
 .mision {
     margin: auto;
     width: 50%;
@@ -433,7 +439,7 @@ section {
 }
 
 .left_menos_30 {
-    margin: 0 0 0 0;
+    margin: 0 0 0 -30%;
 }
 
 .back_gray {
@@ -478,7 +484,7 @@ section {
     position: absolute;
     margin-top: 0;
     top: 366px;
-    right: -68px;
+    right: -20px;
 
 }
 
@@ -595,6 +601,10 @@ section {
         margin: auto;
     }
 
+    .margin_mobile_16 {
+        padding: 0px 16px 0px 16px;
+    }
+
     .font_size_100,
     .font_size_76,
     .font_size_56,
@@ -602,8 +612,8 @@ section {
         font-size: 32px;
     }
 
-    .margin_mobile_16 {
-        margin: 16px;
+    .font_size_mobile {
+        font-size: 20px;
     }
 
     .vanguardia_m {
@@ -625,16 +635,8 @@ section {
     }
 
     .gray_line {
-        margin: 0;
-        height: auto;
-        max-width: 10%;
-
-        background-color: #908f8c;
-    }
-
-    .machine_list {
-        width: min-content;
-        margin-left: 150%;
+        border-left: 50px solid #908f8c;
+        padding-left: 16px;
     }
 
     .check {
@@ -648,6 +650,10 @@ section {
 
     .margin_left_16 {
         margin-left: 10px;
+    }
+
+    .margin_left_32 {
+        margin-left: 16px;
     }
 
     .margin_left_100 {
@@ -669,27 +675,15 @@ section {
     }
 
     .footer {
+        background-color: #b40d39;
         color: #fff;
         position: relative;
-        background-image: url(../img/footer.png);
         width: 100%;
         height: max-content;
-        padding-top: 500px;
+        padding-top: 50px;
         background-repeat: no-repeat;
         background-size: cover;
-        text-align: center;
-    }
-
-    .footer2 {
-        color: #fff;
-        position: relative;
-        background-image: url(../img/footer2.png);
-        width: 100%;
-        height: max-content;
-        padding-top: 500px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        text-align: center;
+        text-align: start;
     }
 
     .video {
@@ -713,14 +707,17 @@ section {
     .valores_list {
         background-color: #908f8c;
         color: #fff;
-        text-align: center;
         flex-basis: 100%;
-        padding: 16px 0;
+        padding: 16px 16px;
 
     }
 
     .padding_left_10pc {
         padding-left: 0;
+    }
+
+    .text_mobile {
+        text-align: center;
     }
 
 }

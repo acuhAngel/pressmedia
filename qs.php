@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Drawe -->
     <link
@@ -15,8 +18,8 @@
   </head>
   <body class="drawer drawer--left">
     <header>
-      <div class="mobile"><?php include('views/header_mobile.php') ?></div>
-      <div class="desk"><?php include('views/header_desk.php') ?></div>
+      <div class="header mobile"><?php include('views/header_mobile.php') ?></div>
+      <div class="header desk"><?php include('views/header_desk.php') ?></div>
     </header>
     <main>
       <div class="flex column">
@@ -142,25 +145,40 @@
             <div class="valores_list flex column flex_space_around">
               <p class="margin_16 desk">&nbsp</p>
               <p
-                class="mobile margin_16 intro_black_italic_italic font_size_48"
+                class="mobile margin_16 intro_black_italic_italic font_size_48 text_align_center"
               >
                 Valores
               </p>
-              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
-                Ética
-              </p>
-              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
-                Trabajo en equipo
-              </p>
-              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
-                Honestidad
-              </p>
-              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
-                Responsabilidad social
-              </p>
-              <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
-                Empatia
-              </p>
+              <div class="flex row flex_cross_center">
+                <img class="" src="assets/img/checkbox.png" alt="" />
+                <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                  Ética
+                </p>
+              </div>
+              <div class="flex row flex_cross_center">
+                <img class="" src="assets/img/checkbox.png" alt="" />
+                <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                  Trabajo en equipo
+                </p>
+              </div>
+              <div class="flex row flex_cross_center">
+                <img class="" src="assets/img/checkbox.png" alt="" />
+                <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                  Honestidad
+                </p>
+              </div>
+              <div class="flex row flex_cross_center">
+                <img class="" src="assets/img/checkbox.png" alt="" />
+                <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                  Responsabilidad social
+                </p>
+              </div>
+              <div class="flex row flex_cross_center">
+                <img class="" src="assets/img/checkbox.png" alt="" />
+                <p class="padding_left_16 font_size_56 intro_book_reg margin_0">
+                  Empatia
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -278,12 +296,22 @@
               </div>
             </div>
           </div>
+          <div class="division_section">
+              <img
+                class="left_gray_points desk"
+                src="assets/img/gray_points.png"
+                alt=""
+              />
+            </div>
         </section>
       </div>
     </main>
     <footer>
-      <?php include('views/footer2.php') ?>
-    </footer>
+    <div class="width_100">
+      <img class="main_footer_img width_100  " src="assets/img/footer2.png">
+      <?php include('views/footer.php') ?>
+    </div>
+  </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
