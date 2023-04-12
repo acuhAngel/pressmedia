@@ -6,7 +6,15 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
+    /* max-width: 1900px; */
+}
+
+main {
+    min-width: 1200px;
+    max-width: 1900px;
+    margin: auto;
+
 }
 
 a {
@@ -95,6 +103,7 @@ section {
 }
 
 .header {
+    max-width: 100%;
     color: #fff;
     background: linear-gradient(#d3132a, 90%, #d83448);
     height: 210px;
@@ -115,9 +124,13 @@ section {
     color: #fff;
 }
 
+.min_width_570 {
+    min-width: 570px;
+}
+
 .title_label {
     margin: 0;
-    background: #d72b40;
+    background: linear-gradient(#d83448, 50%, #d72b40);
     color: #fff;
     font-size: 55px;
     width: fit-content;
@@ -149,7 +162,7 @@ section {
 .main_footer_img {
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -6px;    
+    margin-bottom: -6px;
 }
 
 .icon {
@@ -415,8 +428,8 @@ section {
 }
 
 .width_200px {
-    width: 200px; 
-}    
+    width: 200px;
+}
 
 .mision {
     margin: auto;
@@ -515,6 +528,13 @@ section {
 }
 
 @media only screen and (max-width: 800px) {
+
+    main {
+        min-width: 360px ;
+        max-width: 100%;
+        margin: auto;
+
+    }
 
     .title_label {
         text-align: center;

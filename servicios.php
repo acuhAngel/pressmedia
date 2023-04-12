@@ -27,11 +27,11 @@
         <p class="title_label intro_black_italic_italic">Servicios</p>
       </section>
 
-      <section id="impresion" class="flex row rwrap">
+      <section id="impresion" class="flex row rwrap flex_center">
         <div class="flex_item_50">
           <img class="width_100" src="assets/img/man-working-printing-house-with-paper-paints (2).png" alt="" />
         </div>
-        <div class="flex flex_center margin_left_32 flex_item_50">
+        <div class="flex flex_center margin_left_32 flex_item_50  ">
           <div class="flex column flex_grow_1">
             <div class="division"></div>
             <p class="intro_black_italic_italic font_size_48">Impresión</p>
@@ -60,27 +60,29 @@
           <div class="flex_item_50">
             <img class="width_100" src="assets/img/barniz.png" alt="" />
           </div>
-          <div class="flex column flex_item_50 text_align_end margin_32">
-            <p class="intro_black_italic_italic font_size_48">Barniz</p>
-            <p class="intro_book_alt_reg">
-              Contamos con las mejores caracteristicas en el area, manejando
-              barnices de marca, excelente brillo, secado rápido, buena
-              fricción, y gran calidad de adehencia.
-            </p>
+          <div class="flex column flex_item_50 text_align_end ">
+            <div class="margin_32">
+              <p class="intro_black_italic_italic font_size_48">Barniz</p>
+              <p class="intro_book_alt_reg">
+                Contamos con las mejores caracteristicas en el area, manejando
+                barnices de marca, excelente brillo, secado rápido, buena
+                fricción, y gran calidad de adehencia.
+              </p>
+            </div>
+            <div class="flex row flex_end">
+              <p class="text_align_end">
+                <span class="font_size_28">barniz a registro & barniz uv</span>
+                <br />
+                ( a registro, mate, textura y plasta)
+              </p>
+              <div>
+                <img class="right_gray_points desk" src="assets/img/gray_points.png" alt="" />
+              </div>
+            </div>
           </div>
 
         </div>
 
-        <div class="flex row flex_end">
-          <p class="text_align_end">
-            <span class="font_size_28">barniz a registro & barniz uv</span>
-            <br />
-            ( a registro, mate, textura y plasta)
-          </p>
-          <div>
-            <img class="right_gray_points desk" src="assets/img/gray_points.png" alt="" />
-          </div>
-        </div>
       </section>
       <div class="division_section"></div>
       <div class="division_section"></div>
